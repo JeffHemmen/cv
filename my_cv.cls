@@ -24,3 +24,10 @@
 	\subsection[#1]{#1 \hfill #2}
 }
 
+\newcommand{\name}[1]{
+	\centerline{\Huge{#1}}
+}
+\newcommand{\contact}[5]{
+	\center{#1 \hfill {\large\textperiodcentered} \hfill #2 \hfill {\large\textperiodcentered} \hfill #3}
+	\center{{\Large} #4 {\Large} #5}
+}
